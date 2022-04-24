@@ -21,7 +21,7 @@ import com.model2.mvc.service.product.ProductService;
 @RequestMapping("/product/*")
 public class ProductRestController {
 
-	// filed
+	// field
 	@Autowired
 	@Qualifier("productServiceImpl")
 	private ProductService productService;
@@ -101,7 +101,7 @@ public class ProductRestController {
 	}
 	
 	
-	@RequestMapping( value="json/listProduct" ) 
+	@RequestMapping( value="json/listProduct") 
 	public Map<String, Object> listProduct(@RequestBody Search search) throws Exception {
 		
 		System.out.println("/json/listProduct : GET");
