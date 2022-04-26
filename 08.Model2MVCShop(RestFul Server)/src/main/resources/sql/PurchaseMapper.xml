@@ -22,6 +22,7 @@
 			<id property="prodNo" 	column="prod_no"	jdbcType="NUMERIC" />	
 			<result property="sellerId"		column="seller_id"	jdbcType="VARCHAR" />
 			<result property="prodName"		column="prod_name"	jdbcType="VARCHAR" />			
+			<result property="dueDate"		column="due_date"	jdbcType="VARCHAR" />			
 		</association>
 		
 		<association property="buyer"	javaType="user">

@@ -60,8 +60,6 @@ public class ProductRestController {
 
 		System.out.println("/json/updateProduct : POST");
 
-		//product = productService.getProduct(product.getProdNo());
-
 		// file
 		if (file != null) {
 
